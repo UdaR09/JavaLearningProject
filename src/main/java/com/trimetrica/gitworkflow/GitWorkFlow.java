@@ -14,9 +14,10 @@ public class GitWorkFlow {
         String step10 = "Create a Pull Request from origin/new_branch into origin/master";
         String step11 = "Add the Pull Request details - name, description and request review from your colleagues";
         String step12 = "If you collect at least 1 approval from your colleagues then merge the branch";
-        String step13 = "After that, the origin/master contains  the latest changes and the origin/new_branch can be deleted";
-        String step14 = "Don't forget that locally you are still on the new_branch, it's good to move back to master";
-        String step15 = "However, the local master branch does not have the lastest changes, therefore perform a git fetch and git pull";
+        String step13 = "If a change is required, then the last commit will be adjusted by using git commit amend";
+        String step14 = "After that, the origin/master contains  the latest changes and the origin/new_branch can be deleted";
+        String step15 = "Don't forget that locally you are still on the new_branch, it's good to move back to master";
+        String step16 = "However, the local master branch does not have the lastest changes, therefore perform a git fetch and git pull";
 
         System.out.println(step1);
         System.out.println(step2);
@@ -33,5 +34,6 @@ public class GitWorkFlow {
         System.out.println(step13);
         System.out.println(step14);
         System.out.println(step15);
+        System.out.println(step16);
     }
 }
