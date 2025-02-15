@@ -9,6 +9,7 @@ public class Lion extends Animal{
     public void eat() {
         System.out.println("Fresh meat - mauw");
     }
+
     public void makeSound() {
         System.out.println("Hhhrrrrr - maw");
     }

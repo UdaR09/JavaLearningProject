@@ -10,6 +10,7 @@ public class Cat extends Animal{
     public void eat() {
         System.out.println("Fish food - myauu");
     }
+
     public void makeSound() {
         System.out.println("Mauuuuuw, myaaaaaaaaaaaaaaaawwwwwwwwwwwwwww");
     }
